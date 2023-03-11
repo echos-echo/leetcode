@@ -29,3 +29,12 @@ var isPalindrome = function(x) {
     }
     return newNum === x;
 };
+
+// performance notes:
+// - excellent runtime
+// - memory usage could improve, but still good
+
+console.log(isPalindrome(-33));     // -> false
+console.log(isPalindrome(1000));    // -> false
+console.log(isPalindrome(1));       // -> true
+console.log(isPalindrome(999));     // -> true
