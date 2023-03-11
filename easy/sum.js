@@ -1,10 +1,11 @@
 /**
+ * given num1 and num2, return the sum
+ * 
  * @param {number} num1
  * @param {number} num2
  * @return {number}
  */
 var sum = function(num1, num2) {
-    // given num1 and num2, return the sum
     return num1 + num2;
 };
 
