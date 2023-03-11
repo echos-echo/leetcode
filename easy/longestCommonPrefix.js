@@ -31,6 +31,10 @@ var longestCommonPrefix = function(strs) {
     return prefix;
 };
 
+// performance notes:
+// - great runtime
+// - mediocre memory usage, but tends to vary and not be great
+
 console.log(longestCommonPrefix(["flower","flow","flight"]));    // -> "fl"
 console.log(longestCommonPrefix(["dog","racecar","car"]));       // -> ""
 console.log(longestCommonPrefix(["pine", "pinecone", "pineapple"]));    // -> "pine"
