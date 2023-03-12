@@ -41,3 +41,25 @@ var searchWithRecursion = function(nums, target) {
 
 // time complexity: O(log n)
 // consistently above average runtime, sometimes decent memory use
+
+
+// test cases
+const test1 = [-1,0,3,5,9,12];
+const test2 = [-99, -34, -7, 0, 1, 2, 3, 4, 5, 6, 9, 15, 22, 1000, 99999];
+
+console.log(search(test1, 0));
+console.log(searchWithLoop(test1, 0));
+console.log(searchWithRecursion(test1, 0));
+// -> 1
+console.log(search(test1, 6));
+console.log(searchWithLoop(test1, 6));
+console.log(searchWithRecursion(test1, 22));
+// -> -1
+console.log(search(test2, -7));
+console.log(searchWithLoop(test2, -7));
+console.log(searchWithRecursion(test2, -7));
+// -> 2
+console.log(search(test2, 7));
+console.log(searchWithLoop(test2, 7));
+console.log(searchWithRecursion(test2, 7));
+// -> -1
