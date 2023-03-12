@@ -33,3 +33,9 @@ var isValid = function(s) {
 // performance notes
 // - mediocre runtime; O(n)
 // - memory usage seems to vary
+
+console.log(isValid("()"));     // -> true
+console.log(isValid("()[]{}")); // -> true
+console.log(isValid("(]"));     // -> false
+console.log(isValid("({[]})")); // -> true
+console.log(isValid("(([)))")); // -> false
