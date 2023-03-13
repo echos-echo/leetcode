@@ -9,6 +9,11 @@ var sortedSquares = function(nums) {
     return nums.map(num => num ** 2).sort((x, y) => x - y);
 };
 
+// performance notes:
+// - better than average runtime
+// - terrible memory usage
+// - time complexity: O(n) (?)
+
 const test1 = [-4,-1,0,3,10];
 const test2 = [-7,-3,2,3,11];
 
