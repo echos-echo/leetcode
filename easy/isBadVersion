@@ -44,3 +44,8 @@ var solution = function(isBadVersion) {
         return mid;
     };
 };
+
+// performance notes:
+// - great runtime
+// - okay memory usage
+// - time complexity: O(log n)
