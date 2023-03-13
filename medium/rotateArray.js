@@ -1,4 +1,7 @@
 /**
+ * given an array of nums and a number of steps k, shift the elements of the array
+ * k number of steps to the right, where the elements at the end are shifted to the front
+ * 
  * @param {number[]} nums
  * @param {number} k
  * @return {void} Do not return anything, modify nums in-place instead.
