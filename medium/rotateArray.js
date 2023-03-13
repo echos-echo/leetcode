@@ -24,3 +24,6 @@ var rotate = function(nums, k) {
     nums.unshift(...secondhalf);
 };
 
+// performance notes:
+// O(1) solution has good runtime, fantastic memory usage
+// O(n) solution runs, but poor runtime, exceed time limit
