@@ -10,3 +10,5 @@ var reverseWords = function(s) {
     return wordsReversed.join(' ');
 };
 
+// performance notes:
+// better than average runtime, terrible memory usage
