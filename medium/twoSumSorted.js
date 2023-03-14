@@ -23,3 +23,7 @@ var twoSum = function(numbers, target) {
         }
     }
 };
+
+// performance notes:
+// runtime highly varies between poor and extremely good
+// memory consistently performs at around average or slightly above
