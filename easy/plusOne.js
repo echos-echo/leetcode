@@ -26,3 +26,7 @@ var plusOne = function(digits) {
         return digits;
     }
 };
+
+// performance notes:
+// excellent runtime, above average or around average memory usage
+// time complexity: O(n) at absolute worst, O(1) at best
