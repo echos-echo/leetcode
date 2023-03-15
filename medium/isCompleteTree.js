@@ -32,3 +32,6 @@ var isCompleteTree = function(root) {
     // if we find a node that is not null, that means a node was not processed
     return !(queue.findIndex(thing => thing !== null) > -1);
 }
+
+// performance notes:
+// excellent runtime and great memory usage
