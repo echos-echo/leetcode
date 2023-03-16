@@ -50,3 +50,7 @@ var checkInclusion = function(s1, s2) {
     }
     return false
 };
+
+// performance notes:
+// moderately above average runtime
+// average memory usage
