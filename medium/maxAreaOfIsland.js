@@ -25,3 +25,15 @@ var maxAreaOfIsland = function(grid) {
     }
     return maxArea;
 };
+
+/*
+performance notes:
+- runtime seems to vary, but tends to do well
+- memory usage is consistently moderate
+*/
+
+const test1 = [[0,0,1,0,0,0,0,1,0,0,0,0,0],[0,0,0,0,0,0,0,1,1,1,0,0,0],[0,1,1,0,1,0,0,0,0,0,0,0,0],[0,1,0,0,1,1,0,0,1,0,1,0,0],[0,1,0,0,1,1,0,0,1,1,1,0,0],[0,0,0,0,0,0,0,0,0,0,1,0,0],[0,0,0,0,0,0,0,1,1,1,0,0,0],[0,0,0,0,0,0,0,1,1,0,0,0,0]];
+const test2 = [[0,0,0,0,0,0,0,0]];
+
+console.log(maxAreaOfIsland(test1));    // -> 6
+console.log(maxAreaOfIsland(test2));    // -> 0
